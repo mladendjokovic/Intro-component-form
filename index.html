@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Intro component</title>
+</head>
+<body>
+    <main>
+    <section>
+        <div class="text">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+    </section>
+    <section>
+            <div class="free-trial">
+                <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+            </div>
+            <form action="#" onsubmit="check()">
+                <fieldset>
+                <div class="input first">
+                    <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                    <img id="first-img" src="./Images/icon-error.svg" alt="">
+                    <p></p>
+                </div>
+                <div class="input last">
+                    <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                    <img id="last-img" src="./Images/icon-error.svg" alt="">
+                    <p></p>
+                </div>
+                <div class="input email">   
+                    <input type="text" name="email" id="email" placeholder="Email Address">
+                    <img id="email-img" src="./Images/icon-error.svg" alt="">
+                    <p></p>
+                </div> 
+                <div class="input password">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <img id="password-img" src="./Images/icon-error.svg" alt="">
+                    <p></p> 
+                </div>  
+                <div>  
+                    <input type="submit" name="button" id="button" value="CLAIM YOUR FREE TRIAL">
+                    <p id="terms">By clicking the button yoou are agreeing to our <span>Terms and Services</span></p>
+                </div>  
+                </fieldset>
+            </form>
+    </section>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
