@@ -1,7 +1,7 @@
 const inputs = document.querySelectorAll('.text-input input');
 const emailInput = document.querySelector('.email input');
-const emailError = document.querySelector('.email h3');
-const message = document.querySelectorAll('.text-input h3');
+const emailError = document.querySelector('.email label');
+const message = document.querySelectorAll('.text-input label');
 const img = document.querySelectorAll('.text-input img');
 const btn = document.querySelector('.form button');
 btn.addEventListener('click', e => {
