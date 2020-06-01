@@ -144,6 +144,14 @@
         margin-top: 0.3125rem;
         font-style: italic;
     }
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        color: white; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
     @media (max-width: 786px) {
         .container {
             -webkit-box-orient: vertical;
